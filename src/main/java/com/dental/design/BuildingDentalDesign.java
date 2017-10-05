@@ -23,7 +23,7 @@ public class BuildingDentalDesign extends AbsoluteLayout {
 	protected Image backGround;
 	protected BrowserFrame browserFrameCamera;
 	protected BrowserFrame browserFrameWeather;
-	protected TabSheet tabSheetButtons;
+	protected TabSheet tabSheet;
 
 	public BuildingDentalDesign() {
 		Design.read(this);
