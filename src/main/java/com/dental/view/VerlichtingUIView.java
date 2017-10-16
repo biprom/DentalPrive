@@ -3,6 +3,7 @@ package com.dental.view;
 import com.dental.design.VerlichtingUIDesign;
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener;
+import com.vaadin.ui.Button;
 
 
 public class VerlichtingUIView extends VerlichtingUIDesign implements View{
@@ -12,10 +13,21 @@ public class VerlichtingUIView extends VerlichtingUIDesign implements View{
 
     }
 
+    public VerlichtingUIView() {
+
+        bVoordeurBuiten.addClickListener(new Button.ClickListener() {
+            @Override
+            public void buttonClick(Button.ClickEvent event) {
+          
+            }
+        });
+
+
+    }
 
 
 
-//        bUitbreding1.addClickListener(new Button.ClickListener() {
+    //        bUitbreding1.addClickListener(new Button.ClickListener() {
 //
 //			@Override
 //			public void buttonClick(ClickEvent event) {
